@@ -1,0 +1,30 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.211.128:3306/poem
+    username: root
+    password: root
+  data:
+    redis:
+      host: 192.168.211.128
+
+  elasticsearch:
+    uris: http://192.168.211.128:9200
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  #    show-sql: true
+  main:
+    banner-mode: off
+  freemarker:
+    request-context-attribute: ctx
+
+logging:
+  level:
+    web: debug
+
+

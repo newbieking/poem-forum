@@ -1,0 +1,20 @@
+
+body {
+    background: url("https://ziyuan.guwendao.net/siteimg/bcpic.png");
+}
+
+.poem-nav {
+    background-color: #F0EFE2;
+}
+
+.poem-card {
+    background-color: #F0EFE2;
+}
+
+.poem-search {
+    background-color: #FBFAF6;
+}
+
+a {
+    text-decoration: none;
+}
